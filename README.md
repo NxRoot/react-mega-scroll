@@ -17,9 +17,9 @@ import MegaScroll from 'react-mega-scroll';
 function App() {
   return (
     <MegaScroll>
-      <div style={{height: "100%"}}>A</div>
-      <div style={{height: "100%"}}>B</div>
-      <div style={{height: "100%"}}>C</div>
+      <div style={{height: "100%", background: "#111111"}}>A</div>
+      <div style={{height: "100%", background: "#222222"}}>B</div>
+      <div style={{height: "100%", background: "#333333"}}>C</div>
     </MegaScroll>
   )
 }
@@ -65,9 +65,9 @@ export default App
 
 <table>
   <tr>
-    <th>prop</th>
+    <th>name</th>
     <th>type</th>
-    <th>value</th>
+    <th>current value</th>
     <th>description</th>
   </tr>
   <tr>
