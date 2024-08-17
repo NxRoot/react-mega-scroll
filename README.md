@@ -2,7 +2,7 @@
 
 This is a react component to provide full page scrolling.
 
-<img src="https://i.ibb.co/9HF8fKS/Screen-Recording2024-08-17at08-42-16-ezgif-com-optimize.gif"/>
+<img width="100%" src="https://i.ibb.co/zxYxtJ3/Screen-Recording2024-08-17at08-42-16-ezgif-com-optimize-2.gif"/>
 
 
 ## Install
