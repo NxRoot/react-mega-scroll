@@ -1,6 +1,6 @@
 {
     "name": "react-mega-scroll",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "description": "React full page scroller",
     "main": "lib/index.js",
     "scripts": {
