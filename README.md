@@ -14,7 +14,7 @@ npm i react-mega-scroll
 ```ts
 import MegaScroll from 'react-mega-scroll';
 
-function App() (
+function App() {
   return (
     <MegaScroll>
       <div style={{height: "100%"}}>A</div>
@@ -22,7 +22,7 @@ function App() (
       <div style={{height: "100%"}}>C</div>
     </MegaScroll>
   )
-)
+}
 
 export default App
 ```
