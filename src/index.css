@@ -1,0 +1,39 @@
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fs-container{
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+  overscroll-behavior-x: contain;
+  overflow-x: hidden;
+  display: grid;
+  box-sizing: border-box;
+  grid-template-columns: repeat(1, 1fr);
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  outline: 0 !important;
+}
+
+.fs-item {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  scroll-snap-align: center;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% / 1);
+  list-style-type: none;
+  scroll-snap-stop: always !important;
+}

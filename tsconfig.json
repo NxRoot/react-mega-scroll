@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "jsx": "react",
+      "lib": ["DOM", "ESNext"],
+      "incremental": true,            /* Enable incremental compilation */
+      "target": "ESNext",                /* Specify ECMAScript target version: */
+      "declaration": true,            /* Concatenate & emit output to single file.*/
+      "moduleResolution": "node",
+      "outDir": "lib",                /* Redirect output to the directory. */
+      "allowJs": true,
+      "resolveJsonModule": true,
+      "esModuleInterop": true,        /* Enables intero between CommonJS and ES */
+      "skipLibCheck": true,           /* Skip type checking of declaration files. */
+      "forceConsistentCasingInFileNames": true /* Disallow inconsistently */
+    },
+    "include": [
+      "./src/*.tsx"
+    ]
+  }
