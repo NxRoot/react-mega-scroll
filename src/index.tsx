@@ -40,8 +40,8 @@ const MegaScrollPage = (props: {
   }, [ref.current])
 
   return (
-    <div ref={ref} className='fs-item'>
-      {props.children}
+    <div ref={ref} className='fs-item' {...props.children?.props}>
+      {props.children?.props.children}
     </div>
   )
 }

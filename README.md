@@ -17,9 +17,7 @@ import MegaScroll from 'react-mega-scroll';
 function App() {
   return (
     <MegaScroll>
-      <div style={{height: "100%", background: "#111111"}}>A</div>
-      <div style={{height: "100%", background: "#222222"}}>B</div>
-      <div style={{height: "100%", background: "#333333"}}>C</div>
+      // add pages to render here
     </MegaScroll>
   )
 }
@@ -27,7 +25,7 @@ function App() {
 export default App
 ```
 
-## State Changes
+## Example
 ```ts
 import React from 'react';
 import MegaScroll from 'react-mega-scroll';
