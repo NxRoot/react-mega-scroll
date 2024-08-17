@@ -37,7 +37,6 @@ const styles: React.CSSProperties = {
   alignItems: "center",
   fontSize: "60px",
   textAlign: "center",
-  height: "100%",
   color: "white",
 }
 
