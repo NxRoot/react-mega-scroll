@@ -11,6 +11,7 @@ npm i react-mega-scroll
 
 ## How to Use
 ```ts
+import React from 'react';
 import MegaScroll from 'react-mega-scroll';
 
 const styles: React.CSSProperties = {
@@ -38,4 +39,6 @@ function App() {
     </MegaScroll>
   );
 }
+
+export default App
 ```
