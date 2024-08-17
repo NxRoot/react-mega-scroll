@@ -40,7 +40,7 @@ const MegaScrollPage = (props: {
   }, [ref.current])
 
   return (
-    <div ref={ref} className='fs-item' {...props.children?.props}>
+    <div ref={ref} className='ms-item' {...props.children?.props}>
       {props.children?.props.children}
     </div>
   )
@@ -59,7 +59,7 @@ const MegaScroll = (props: {
   useEffect(() => !props.noFocus && ref.current?.focus(), [])
 
   return (
-    <div ref={ref} className="fs-container">
+    <div ref={ref} className="ms-container">
       {childs?.map((child, i) =>
         <MegaScrollPage
           key={i}
