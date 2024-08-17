@@ -4,6 +4,7 @@ This is a react component to provide full page scrolling.
 
 <img src="https://i.ibb.co/9HF8fKS/Screen-Recording2024-08-17at08-42-16-ezgif-com-optimize.gif"/>
 
+
 ## Install
 ```sh
 npm i react-mega-scroll
@@ -13,12 +14,17 @@ npm i react-mega-scroll
 ```ts
 import MegaScroll from 'react-mega-scroll';
 
-export const Example = () => (
-  <MegaScroll>
-    <div>Page 1</div>
-    <div>Page 2</div>
-  </MegaScroll>
+function App() (
+  return (
+    <MegaScroll>
+      <div style={{height: "100%"}}>A</div>
+      <div style={{height: "100%"}}>B</div>
+      <div style={{height: "100%"}}>C</div>
+    </MegaScroll>
+  )
 )
+
+export default App
 ```
 
 ## State Changes
