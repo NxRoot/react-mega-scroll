@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import "./index.css"
 
-const FullScrollPage = (props: {
+const MegaScrollPage = (props: {
   children: any,
   onActive?: () => void
   bg?: string,
@@ -47,7 +47,7 @@ const FullScrollPage = (props: {
 }
 
 
-const FullScroll = (props: {
+const MegaScroll = (props: {
   children?: any,
   onChange?: (index: number) => void,
   noFocus?: boolean,
@@ -61,7 +61,7 @@ const FullScroll = (props: {
   return (
     <div ref={ref} className="fs-container">
       {childs?.map((child, i) =>
-        <FullScrollPage
+        <MegaScrollPage
           key={i}
           children={child}
           threshold={props.threshold}
@@ -72,4 +72,4 @@ const FullScroll = (props: {
   )
 }
 
-export default FullScroll
+export default MegaScroll
