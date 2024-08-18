@@ -31,3 +31,7 @@ html, body, #root {
   list-style-type: none;
   scroll-snap-stop: always !important;
 }
+
+.ms-item div {
+  height: 100%;
+}
