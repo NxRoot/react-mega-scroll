@@ -5,7 +5,7 @@ This is a react component to provide full page scrolling.
 <img width="100%" src="https://i.ibb.co/zxYxtJ3/Screen-Recording2024-08-17at08-42-16-ezgif-com-optimize-2.gif"/>
 
 ## Demo
-[![Edit react-mega-scroll](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/react-mega-scroll-77t7mc)
+[![Edit react-mega-scroll](https://codesandbox.io/static/img/play-codesandbox.svg)](https://77t7mc.csb.app/)
 
 ## Install
 ```sh
@@ -47,11 +47,11 @@ function App() {
 
   return (
     <MegaScroll onChange={setActive}>
-      <div style={{ ...styles, background: "#111111" }}>react-mega-scroll</div>
-      <div style={{ ...styles, background: "#222222" }}>Smooth Scrolling</div>
-      <div style={{ ...styles, background: "#333333" }}>Keyboard Support</div>
-      <div style={{ ...styles, background: "#222222" }}>State Listeners</div>
-      <div style={{ ...styles, background: "#111111" }}>Free Forever</div>
+      <div style={{ ...styles, background: "#111" }}>react-mega-scroll</div>
+      <div style={{ ...styles, background: "#222" }}>Smooth Scrolling</div>
+      <div style={{ ...styles, background: "#333" }}>Keyboard Support</div>
+      <div style={{ ...styles, background: "#222" }}>State Listeners</div>
+      <div style={{ ...styles, background: "#111" }}>Free Forever</div>
     </MegaScroll>
   );
 }
