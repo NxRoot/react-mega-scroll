@@ -4,6 +4,8 @@ This is a react component to provide full page scrolling.
 
 <img width="100%" src="https://i.ibb.co/zxYxtJ3/Screen-Recording2024-08-17at08-42-16-ezgif-com-optimize-2.gif"/>
 
+## Demo
+[![Edit react-mega-scroll](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/react-mega-scroll-77t7mc)
 
 ## Install
 ```sh
@@ -27,8 +29,8 @@ export default App
 
 ## Example
 ```ts
-import React from 'react';
-import MegaScroll from 'react-mega-scroll';
+import React, { useState } from "react";
+import MegaScroll from "react-mega-scroll";
 
 const styles: React.CSSProperties = {
   display: "flex",
@@ -38,11 +40,10 @@ const styles: React.CSSProperties = {
   fontSize: "60px",
   textAlign: "center",
   color: "white",
-}
+};
 
 function App() {
-
-  const [active, setActive] = useState(0)
+  const [active, setActive] = useState(0);
 
   return (
     <MegaScroll onChange={setActive}>
@@ -55,7 +56,7 @@ function App() {
   );
 }
 
-export default App
+export default App;
 ```
 
 ## Props <MegaScroll/>
