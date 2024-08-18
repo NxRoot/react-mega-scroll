@@ -5,7 +5,7 @@ This is a react component to provide full page scrolling.
 <img width="100%" src="https://i.ibb.co/zxYxtJ3/Screen-Recording2024-08-17at08-42-16-ezgif-com-optimize-2.gif"/>
 
 ## Demo
-<a href="https://77t7mc.csb.app/" target="_blank"><img src="https://codesandbox.io/static/img/play-codesandbox.svg"/></a>
+[![Edit react-mega-scroll](https://codesandbox.io/static/img/play-codesandbox.svg)](https://77t7mc.csb.app/)
 
 ## Install
 ```sh
