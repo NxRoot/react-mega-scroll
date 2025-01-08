@@ -11,7 +11,7 @@ html, body, #root {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.ms-container{
+.ms-container {
   overflow: auto;
   scroll-snap-type: y mandatory;
   overscroll-behavior-x: contain;
@@ -32,6 +32,6 @@ html, body, #root {
   scroll-snap-stop: always !important;
 }
 
-.ms-item div {
+.ms-item > div {
   height: 100%;
 }
