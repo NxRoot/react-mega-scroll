@@ -4,8 +4,6 @@ import "./index.css"
 const MegaScrollPage = (props: {
   children: any,
   onActive?: () => void
-  bg?: string,
-  title?: string,
   threshold?: number
 }) => {
 
@@ -56,7 +54,7 @@ const MegaScroll = (props: {
 
   const ref: any = useRef()
   const childs = React.Children.toArray(props.children)
-  useEffect(() => !props.noFocus && ref.current?.focus(), [])
+  useEffect(() => !props.noFocus ? ref.current?.focus() : ()=>{}, [])
 
   return (
     <div ref={ref} className="ms-container">
